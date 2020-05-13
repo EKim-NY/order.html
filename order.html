@@ -1,9 +1,8 @@
 <!doctype html>
 <html>
     <head>
-        
-        <title>Melongrams for Sale!</title>
-        
+        <title>Order a Melongram!</title>
+        <!--Tab title-->
     </head>
 
     <body>
@@ -35,65 +34,44 @@
         <h2>Order Form</h2>
 
             <form>
-                <label>Your name</label>
+                Your name
                 <input type="text" name="name" placeholder="Name">
-            </form>
 
-            <br>
-
-            <form>  
-                <label>Who are we sending this to?</label>    
+                <p></p>
+            
+                Who are we sending this to?    
                 <input type="text" name="recipient" placeholder="Recipient">
-            </form>
 
-            <br>
+                <p></p>
 
-            <form>
-                <h3>Choose a melon</h3>
-
+                Choose a melon: 
                 <select name="melon">
                     <option value="watermelon">Watermleon</option>
                     <option value="cantaloupe">Cantaloupe</option>
                     <option value="honeydew">Honeydew</option>
                 </select>
-            </form>
-
-            <br>
-
-            <form>
-                When should we deliver?
-
-                <input type="radio" name="time" value="am">
-                <label>Morning</label>
-
-                <input type="radio" name="time" value="pm">
-                <label>Evening</label>
-
-                <input type="radio" name="time" value="any">
-                <label>Any time</label>
-            </form>
-
-            <br>
-
-            <form>
-                <label>Enter your message:</label>
-                <textarea name="message"></textarea>
-            </form>
-
-            <br>
-
-            <form>
-                Subscribe to our newsletter
-
-                <input type="checkbox" name="subscribe" value="yes">
-            </form>
-
-            <br>
             
-            <form>
+                <p></p>
+            
+                When should we deliver?
+                <input type="radio" name="time" value="am">Morning
+                <input type="radio" name="time" value="pm">Evening
+                <input type="radio" name="time" value="any">Any time
+            
+                <p></p>
+            
+                Enter your message:
+                <textarea name="message"></textarea>
+            
+                <p></p>
+            
+                Subscribe to our newsletter
+                <input type="checkbox" name="subscribe" value="yes">
+
+                <p></p>
+
                 <input type="submit">
             </form>
-
 
     </body>
 </html>
